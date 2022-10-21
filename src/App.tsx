@@ -1,19 +1,21 @@
 import React from 'react';
 import './App.css';
-import BarPlot from './components/BarPlot';
-import BubblePlot from './components/BubblePlot';
-import LinePlot from './components/LinePlot';
-import { PiePlot } from './components/PiePlot';
-import RadarPlot from './components/Radar';
+import MaterialUI from './components/MaterialUI';
+// import BarPlot from './components/BarPlot';
+// import BubblePlot from './components/BubblePlot';
+// import LinePlot from './components/LinePlot';
+// import { PiePlot } from './components/PiePlot';
+// import RadarPlot from './components/Radar';
 
 function App() {
   return (
     <div className='App'>
-      <LinePlot />
+      {/* <LinePlot />
       <PiePlot />
       <BarPlot />
       <RadarPlot />
-      <BubblePlot />
+      <BubblePlot /> */}
+      <MaterialUI />
     </div>
   );
 }
